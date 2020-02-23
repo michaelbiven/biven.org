@@ -9,4 +9,6 @@ Website for myself ([michael.biven.org](https://michael.biven.org)). This is mor
 This site uses [Hugo](https://gohugo.io/) and the [hello-friend](https://themes.gohugo.io/hugo-theme-hello-friend/)
  theme. 
 
+The source is hosted on [GitHub](https://github.com/michaelbiven/biven.org).
+
 It is hosted on [Netlify](https://www.netlify.com).
