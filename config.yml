@@ -1,40 +1,52 @@
-baseURL: "https://michael.biven.org/"
-title: Michael Biven
-copyright: >
-  Copyright &copy; 2006-2020 Michael Biven. All Rights Reserved.&nbsp
-  <span>Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
-  <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
-
+baseUrl: "https://michael.biven.org/"
 languageCode: en-us
-defaultContentLanguage: en-us
 theme: hello-friend
-enableGitInfo: true
-frontmatter:
-  date:
-    - ":git"
-    - ":default"
-taxonomies:
-  tag: tags
+copyright: >
+  <span>Copyright &copy; 2006-2020 <a href="https://michael.biven.org">Michael Biven</a>. All Rights Reserved.</br>
+  Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and theme by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+paginate: 5
 
 params:
-  author: Michael Biven
-  subtitle: I build and run infrastructure.
-  logo:
-    logoText: "$ whois Michael Biven"
-    logoHomeLink: /
-  dateFormatSingle: "02-01-2006"
-  dateFormatList: "02-01-2006"
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # "dark" or "light"
   defaultTheme: light
-  showReadingTime: false
-  # showMenuItems: 2
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 4
 
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: "https://michael.biven.org"
-      weight: 30
-    - identifier: posts
-      name: Posts
-      url: "https://puttogetherquickly.com"
-      weight: 40
+languages:
+  en:
+    title: Michael Biven
+    subtitle: I build and run infrastructure.
+    keywords: ''
+    menuMore: Show more
+    writtenBy: Written by
+    readOtherPosts: Read other posts
+    olderPosts: Older posts
+    dateFormatSingle: 2006-01-02
+    dateFormatList: 2006-01-02
+    
+    params:
+      logo:
+        logoText: "$ whois Michael Biven"
+        logoHomeLink: /
+    #   or
+    #
+    #   path: /img/your-example-logo.svg
+    #   alt: Your example logo alt text
+    
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: "https://michael.biven.org"
+        weight: 10
+      - identifier: posts
+        name: Posts
+        url: "https://puttogetherquickly.com"
+        weight: 20
+      - identifier: colophon
+        name: Colophon
+        url: "/colophon"
+        weight: 30
+ 

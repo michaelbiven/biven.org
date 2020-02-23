@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <div class="post">
+    <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+
+    {{ if not (eq .Params.Comments "false") }}
+      {{ if or (eq .Type $.Site.Params.contentTypeName) (.Params.Comments) }}
+        {{ partial "comments.html" . }}
+      {{ end }}
+    {{ end }}
+
+    {{ if or .Params.mailHire .Params.mailGeneral }}
+    <p class="my-emails">
+    {{ if .Params.mailHire }} Hire me <i class="fas fa-envelope"></i>&nbsp;<a href="mailto:{{ .Params.mailHire }}">{{ .Params.mailHire }}</a></br>
+      {{ end }}
+      {{ if .Params.mailGeneral }} General questions <i class="fas fa-envelope"></i>&nbsp;<a href="mailto:{{ .Params.mailGeneral }}">{{ .Params.mailGeneral }}</a></br>
+      {{ end }}
+    </p>
+    {{ end }}
+
+    {{ if or .Params.linkedin .Params.github }}
+    <p class="my-websites">
+      {{ if .Params.linkedin }} LinkedIn <i class="fab fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/{{ .Params.linkedin }}" target="_blank">{{ .Params.linkedin }}</a></br>
+      {{ end }}
+      {{ if .Params.github }} GitHub <i class="fab fa-github"></i>&nbsp;<a href="https://github.com/{{ .Params.github }}" target="_blank">{{ .Params.github }}</a></br>
+      {{ end }}
+    </p>
+    {{ end }}
+
+  </div>
+{{ end }}
+
