@@ -1,0 +1,14 @@
+**/.DS_Store
+_site/**
+CNAME
+
+
+# Hugo output
+public/
+resources/
+
+# Netlify Functions build output
+package-lock.json
+functions/
+node_modules/
+

@@ -1,0 +1,40 @@
+baseURL: "https://michael.biven.org/"
+title: Michael Biven
+copyright: >
+  Copyright &copy; 2006-2020 Michael Biven. All Rights Reserved.&nbsp
+  <span>Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+  <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+
+languageCode: en-us
+defaultContentLanguage: en-us
+theme: hello-friend
+enableGitInfo: true
+frontmatter:
+  date:
+    - ":git"
+    - ":default"
+taxonomies:
+  tag: tags
+
+params:
+  author: Michael Biven
+  subtitle: I build and run infrastructure.
+  logo:
+    logoText: "$ whois Michael Biven"
+    logoHomeLink: /
+  dateFormatSingle: "02-01-2006"
+  dateFormatList: "02-01-2006"
+  defaultTheme: light
+  showReadingTime: false
+  # showMenuItems: 2
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: "https://michael.biven.org"
+      weight: 30
+    - identifier: posts
+      name: Posts
+      url: "https://puttogetherquickly.com"
+      weight: 40
