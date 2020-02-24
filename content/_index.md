@@ -6,11 +6,14 @@ date =  "2019-01-18"
 
 # Hi!
 
-**I'm Michael.** I build and run infrastructure <a href="#footnote-1">[1]</a>. I've gone through the early growing pains of scaling rails. And bare metal to VMs, private and public cloud to containers and serverless. I've worked as an individual engineer, engineering manager, to the sole technical person. Shipping streaming music and video, petition and ticket platforms, ecommerce sites, and SaaS platforms.
+**I'm Michael.** I build and run infrastructure [^1]. I've gone through the early growing pains of scaling rails. And bare metal to VMs, private and public cloud to containers and serverless. I've worked as an individual engineer, engineering manager, to the sole technical person. Shipping streaming music and video, petition and ticket platforms, ecommerce sites, and SaaS platforms.
 
 I love mentoring people and ideas, reality checks (technical, product, and project), and technical leadership. I’m a constant learner. Interested in the safety of teams and the security of the trust given to me by customers. And I enjoy figuring out how to help teams grow as much as I do scaling the technology.
 
-<p id="footnote-1"><i>[1] (compute, network, storage, services, workflows)</i></p>
+**contact:** [email](mailto:michael@biven.org), [GitHub](https://github.com/michaelbiven), [LinkedIn](https://www.linkedin.com/in/michaelbiven/). 
+
+
+[^1]: (compute, network, storage, services, workflows)
 
 ## Skills 
 
