@@ -30,10 +30,6 @@ languages:
       logo:
         logoText: "$ whois Michael Biven"
         logoHomeLink: /
-    #   or
-    #
-    #   path: /img/your-example-logo.svg
-    #   alt: Your example logo alt text
     
     menu:
       main:
@@ -41,12 +37,5 @@ languages:
         name: About
         url: "https://michael.biven.org"
         weight: 10
-      - identifier: posts
-        name: Posts
-        url: "https://puttogetherquickly.com"
-        weight: 20
-      - identifier: colophon
-        name: Colophon
-        url: "/colophon"
-        weight: 30
+      
  

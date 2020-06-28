@@ -10,7 +10,7 @@ date =  "2019-01-18"
 
 I love mentoring people and ideas, reality checks (technical, product, and project), and technical leadership. I’m a constant learner. Interested in the safety of teams and the security of the trust given to me by customers. And I enjoy figuring out how to help teams grow as much as I do scaling the technology.
 
-**contact:** [email](mailto:michael@biven.org), [GitHub](https://github.com/michaelbiven), [LinkedIn](https://www.linkedin.com/in/michaelbiven/). 
+**contact:** [email](mailto:michael@biven.org), [GitHub](https://github.com/michaelbiven). 
 
 
 [^1]: (compute, network, storage, services, workflows)
