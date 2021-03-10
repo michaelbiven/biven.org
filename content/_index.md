@@ -27,7 +27,11 @@ I love mentoring people and ideas, reality checks (technical, product, and proje
 
 ## Work 
 
-**Principal Systems Engineer at NationBuilder** _2019—Present_ 
+**Principal Member of the Technical Staff, Software Engineering at Salesforce** __2021-Present__
+
+A member of the Platform Tools and Services team applying the Jevons Paradox while helping make a new internal platform.
+
+**Principal Systems Engineer at NationBuilder** _2019—2021_
 
 I'm building services and systems that powers the NationBuilder platform.  Including new products with Terraform, AWS Lambda and Step Functions, GitHub Actions. And using those new products to drive creating new reference architecture, providing adopted patterns to be shared and reused by the entire organization.
 
