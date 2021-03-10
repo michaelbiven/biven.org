@@ -27,7 +27,7 @@ I love mentoring people and ideas, reality checks (technical, product, and proje
 
 ## Work 
 
-**Principal Member of the Technical Staff, Software Engineering at Salesforce** __2021-Present__
+**Principal Member of the Technical Staff, Software Engineering at Salesforce** _2021-Present_
 
 A member of the Platform Tools and Services team applying the Jevons Paradox while helping make a new internal platform.
 
